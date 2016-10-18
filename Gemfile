@@ -12,12 +12,12 @@ gem 'jbuilder', '~> 2.5'
 group :development do
   gem 'listen', '~> 3.0.5'
   gem 'spring-watcher-listen', '~> 2.0.0'
+  gem 'web-console'
 end
 
 group :development, :test do
   gem 'sqlite3'
   gem 'byebug', platform: :mri
-  gem 'web-console'
   gem 'spring'
 end
 
