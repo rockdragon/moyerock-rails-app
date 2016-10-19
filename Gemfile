@@ -15,6 +15,13 @@ group :development do
   gem 'web-console'
 end
 
+group :test do
+  gem 'minitest-reporters'
+  gem 'mini_backtrace'
+  gem 'guard-minitest'
+  gem 'guard'
+end
+
 group :development, :test do
   gem 'sqlite3'
   gem 'byebug', platform: :mri
