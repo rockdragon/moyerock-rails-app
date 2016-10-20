@@ -22,3 +22,35 @@ textarea {
 .center h1 {
   margin-bottom: 10px;
 }
+
+/* footer */
+
+footer {
+  margin-top: 45px;
+  padding-top: 5px;
+  border-top: 1px solid #eaeaea;
+  color: #777;
+  display: flex;
+}
+
+footer a {
+  color: #555;
+}
+
+footer a:hover {
+  color: #222;
+}
+
+footer small {
+  flex: 0 0 75%;
+}
+
+footer ul {
+  margin: 0 0;
+  list-style: none;
+}
+
+footer ul li {
+  float: left;
+  margin-left: 15px;
+}
