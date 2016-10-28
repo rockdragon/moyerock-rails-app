@@ -1,0 +1,6 @@
+#!/bin/bash
+
+bundle exec rails db:migrate:reset &&
+bundle exec rails db:seed &&
+DISABLE_DATABASE_ENVIRONMENT_CHECK=1 heroku run rails db:migrate:reset &&
+heroku run rails db:seed
