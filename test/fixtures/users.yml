@@ -4,7 +4,7 @@ michael:
   name: Holy Mike
   email: mike@holy.com
   password_digest: <%= User.digest('system') %>
-  admin: ture
+  admin: true
 
 archer:
   name: Sterling Archer
