@@ -1,0 +1,5 @@
+#!/bin/bash
+
+heroku pg:reset DATABASE --confirm moyerocks-rails-app &&
+heroku run rails db:migrate &&
+heroku run rails db:seed
