@@ -1,2 +1,0 @@
-module PassswordResetsHelper
-end
